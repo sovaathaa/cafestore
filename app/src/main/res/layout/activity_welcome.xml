@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBDDC8"
+    android:gravity="center">
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/coffeeImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/coffee_image"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Coffee Image" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COFFEE SHOP"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:gravity="center" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy the drink coffee."
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/shopNowButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SHOP NOW"
+        android:backgroundTint="#3E2723"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
