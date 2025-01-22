@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Notification Bell -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,2C10.34,2 9,3.34 9,5v0.71C6.64,6.66 5,9.02 5,11.76v4.18l-1.6,1.6c-0.39,0.39 -0.39,1.02 0,1.41 0.39,0.39 1.02,0.39 1.41,0h12.39c0.39,0.39 1.02,0.39 1.41,0 0.39,-0.39 0.39,-1.02 0,-1.41L19,15.94v-4.18c0,-2.74 -1.64,-5.1 -4,-6.05V5c0,-1.66 -1.34,-3 -3,-3zM12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.9,2 2,2z" />
+
+    <!-- Badge (Circle) -->
+    <circle
+        android:fillColor="#FF0000"
+        android:centerX="18"
+        android:centerY="6"
+        android:radius="4" />
+</vector>
